@@ -4,3 +4,9 @@ const objectA = {
 }
 
 console.log(objectA);
+
+const copyOfA = objectA;
+
+copyOfA.a = 22;
+
+console.log(objectA);
