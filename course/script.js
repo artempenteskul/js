@@ -1,1 +1,8 @@
-console.log(3 - 4);
+let a;
+
+const c = 10;
+
+a = true;
+
+console.log(a);
+console.log(c);
