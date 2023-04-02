@@ -10,3 +10,7 @@ const copyOfA = objectA;
 copyOfA.a = 22;
 
 console.log(objectA);
+
+copyOfA.c = 'abc';
+
+console.log(copyOfA);
