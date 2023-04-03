@@ -22,4 +22,4 @@ myCity.coordinates = {x: 213.12, y: 32.11};
 
 console.log(myCity);
 
-// console.log(myCity.coordinates.x);
+console.log(myCity.coordinates.x);
