@@ -1,3 +1,5 @@
+'use strict';
+
 let a;
 
 const c = 10;

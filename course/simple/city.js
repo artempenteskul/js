@@ -1,3 +1,5 @@
+'use strict';
+
 const myCity = {
     city: 'New York',
 }

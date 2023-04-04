@@ -1,3 +1,5 @@
+'use strict';
+
 const person = {
     name: 'Bob', 
     age: 25

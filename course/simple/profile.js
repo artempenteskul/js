@@ -1,3 +1,5 @@
+'use strict';
+
 const name = 'Artem';
 const postsQty = 23
 
