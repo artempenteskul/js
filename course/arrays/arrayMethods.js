@@ -24,4 +24,3 @@ console.log(myArray.length);
 myArray.shift()
 console.log(myArray);
 console.log(myArray.length);
-
