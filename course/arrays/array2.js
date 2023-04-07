@@ -9,4 +9,3 @@ console.log(myArray[2]);
 console.log(myArray[99]);
 
 console.log(myArray.length);
-
