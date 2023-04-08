@@ -20,3 +20,13 @@ for (let i = 0; i < myArray.length; i++) {
 // forEach 
 
 myArray.forEach((el, index) => {console.log(`${el} - ${index}`)})
+
+
+// while 
+
+let counter = 0;
+
+while (counter < 5) {
+    console.log(counter);
+    counter++;
+}
