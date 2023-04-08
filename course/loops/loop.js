@@ -37,6 +37,6 @@ while (counter < 5) {
 counter = 5;
 
 do {
-    counter++;
     console.log(counter);
+    counter++;
 } while (counter < 5);
