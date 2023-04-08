@@ -49,3 +49,11 @@ const myObject = {age: 22, name: 'Test'}
 for (let key in myObject) {
     console.log(`${key} - ${myObject[key]}`);
 }
+
+
+// for in plus array
+
+for (const key in myArray) {
+    console.log(myArray[key]);
+}
+
