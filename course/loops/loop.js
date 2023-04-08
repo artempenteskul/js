@@ -40,3 +40,12 @@ do {
     console.log(counter);
     counter++;
 } while (counter < 5);
+
+
+// for in 
+
+const myObject = {age: 22, name: 'Test'}
+
+for (let key in myObject) {
+    console.log(`${key} - ${myObject[key]}`);
+}
