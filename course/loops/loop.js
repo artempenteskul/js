@@ -57,3 +57,11 @@ for (const key in myArray) {
     console.log(myArray[key]);
 }
 
+
+// for of 
+
+const myString = 'hey!'
+
+for (const letter of myString) { 
+    console.log(value);
+}
