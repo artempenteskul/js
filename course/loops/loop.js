@@ -30,3 +30,13 @@ while (counter < 5) {
     console.log(counter);
     counter++;
 }
+
+
+// do while
+
+counter = 5;
+
+do {
+    counter++;
+    console.log(counter);
+} while (counter < 5);
