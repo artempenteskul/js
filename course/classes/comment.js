@@ -12,3 +12,6 @@ class Comment {
 const firstComment = new Comment('firts comment');
 
 console.log(firstComment);
+console.log(firstComment.text);
+firstComment.upvote();
+console.log(firstComment.votesQty);
