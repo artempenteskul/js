@@ -13,7 +13,7 @@ class Comment {
     }
 }
 
-const firstComment = new Comment('firts comment');
+const firstComment = new Comment('first comment');
 
 console.log(firstComment);
 console.log(firstComment.text);
