@@ -7,6 +7,10 @@ class Comment {
     upvote() {
         this.votesQty += 1;
     }
+
+    static mergeComments(first, second) {
+        return `${first} - ${second}`
+    }
 }
 
 const firstComment = new Comment('firts comment');
@@ -26,3 +30,7 @@ console.log(firstComment instanceof Object);
 console.log(firstComment.hasOwnProperty('text'));
 console.log(firstComment.hasOwnProperty('votesQty'));
 console.log(firstComment.hasOwnProperty('upvote'));
+
+// class static methods
+
+console.log(Comment.mergeComments('test1', 'test2'));
