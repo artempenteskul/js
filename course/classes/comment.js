@@ -15,3 +15,8 @@ console.log(firstComment);
 console.log(firstComment.text);
 firstComment.upvote();
 console.log(firstComment.votesQty);
+
+//
+
+console.log(firstComment instanceof Comment);
+console.log(firstComment instanceof Object);
