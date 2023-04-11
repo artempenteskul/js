@@ -1,7 +1,8 @@
 'use strict';
 
 
-// this is comment variable (one-line comment)
-const comment = 'comment';
+// one-line comment
+
+const comment = 'comment'; // inline comment
 
 console.log(comment);
