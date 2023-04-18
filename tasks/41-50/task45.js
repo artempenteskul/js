@@ -29,4 +29,3 @@ console.log(isElementInArray(['flexbox', 'css'], tags)) // false
 console.log(isElementInArray({ title: 'Apple', quantity: 25 }, fruits)) // true
 console.log(isElementInArray({ title: 'Banana' }, fruits)) // false
 console.log(isElementInArray(25, primitiveTypesArray)) // true
-  
