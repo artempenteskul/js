@@ -13,4 +13,5 @@ console.log(objectA);
 
 copyOfA.c = 'abc';
 
+console.log(objectA);
 console.log(copyOfA);
