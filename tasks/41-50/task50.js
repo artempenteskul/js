@@ -1,6 +1,6 @@
 'use strict';
 
-const formTemplateLiteral = num => {
+const formTemplateLiteral = (num) => {
     return `Number ${num}
 This number is ${num >= 10 ? 'more or equal 10' : 'less than 10'}.
 The square root of this number is ${Math.sqrt(num)}.`

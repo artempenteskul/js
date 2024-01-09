@@ -4,12 +4,8 @@ function areArraysEqual(firstArray, secondArray) {
     if (firstArray.length !== secondArray.length) {
         return false;
     }
-    
-    if (firstArray.every((el, el_n) => el === secondArray[el_n])) {
-        return true;
-    }
 
-    return false;
+    return !!firstArray.every((el, el_n) => el === secondArray[el_n])
 }
 
 const a = [1, 2, 3]
