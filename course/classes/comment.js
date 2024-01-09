@@ -8,6 +8,12 @@ class Comment {
         this.votesQty += 1;
     }
 
+    downVote() {
+        if (this.votesQty > 0) {
+            this.votesQty -= 1;
+        }
+    }
+
     static mergeComments(first, second) {
         return `${first} - ${second}`
     }
@@ -19,6 +25,10 @@ console.log(firstComment);
 console.log(firstComment.text);
 firstComment.upvote();
 console.log(firstComment.votesQty);
+firstComment.upvote()
+firstComment.upvote()
+firstComment.downVote()
+console.log(firstComment.votesQty)
 
 //
 
