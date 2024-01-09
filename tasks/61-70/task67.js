@@ -1,8 +1,8 @@
 'use strict';
 
 
-function multiplyBy(a, mult = 2) {
-    console.log(a * mult);
+function multiplyBy(a, multiplier = 2) {
+    console.log(a * multiplier);
 }
 
 

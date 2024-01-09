@@ -1,6 +1,6 @@
 'use strict';
 
 
-const mult = (a, b) => a * b;
+const multiply = (a, b) => a * b;
 
-setTimeout(() => {console.log(mult(5, 10))}, 1000)
+setTimeout(() => {console.log(multiply(5, 10))}, 1000);
