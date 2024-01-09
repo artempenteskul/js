@@ -60,8 +60,8 @@ for (let key in myObject) {
 // for in plus array
 console.log('=== for in loop plus array ===')
 
-for (const key in myArray) {
-    console.log(myArray[key]);
+for (const index in myArray) {
+    console.log(myArray[index]);
 }
 
 
@@ -72,4 +72,14 @@ const myString = 'hey!'
 
 for (const letter of myString) { 
     console.log(letter);
+}
+
+
+// for of plus array
+console.log('=== for of plus array ===')
+
+const myArr = [1, 2, 3];
+
+for (const num of myArr) {
+    console.log(num);
 }
