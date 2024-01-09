@@ -1,8 +1,8 @@
 'use strict';
 
 
-import printName from "./moduleOne.mjs"
-import {one, two} from "./moduleZero.mjs"
+import printName from './moduleOne.mjs'
+import {one, two} from './moduleZero.mjs'
 
 
 printName('Artem');
