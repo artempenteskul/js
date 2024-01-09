@@ -1,7 +1,7 @@
 'use strict';
 
 
-const processQuantities = ([minQty, maxQty, defaultQty=0]) => {
+const processQuantities = ([minQty, maxQty, defaultQty= 0]) => {
     console.log(minQty)
     console.log(maxQty)
     console.log(defaultQty)

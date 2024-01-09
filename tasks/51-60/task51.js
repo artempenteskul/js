@@ -1,6 +1,9 @@
 'use strict';
 
 
+// ... three dots makes function accept indefinite parameters as array
+// ... three dots also unpacking the array
+
 function calculateMeanScore(...numbers) {
     if (numbers.some(num => typeof num !== 'number')) {
         throw new Error('All arguments should be numbers.')
