@@ -9,5 +9,5 @@ a = true;
 console.log(a);
 console.log(c);
 
-res = console.log('test');
-console.log(res);
+// res = console.log('test'); // res is undefined
+// console.log(res);
