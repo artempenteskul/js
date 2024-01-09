@@ -10,6 +10,8 @@ Object.prototype.country = 'England';
 
 for (let key in myObject) {
   if (myObject.hasOwnProperty(key)) {
-    console.log(myObject[key])
+    console.log(myObject[key]);
   }
 }
+
+console.log(myObject);
