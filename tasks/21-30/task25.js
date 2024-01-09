@@ -35,7 +35,7 @@ if (newVariable > 10) {
    */
 
   // expression statement
-  console.log(`${newVariable} больше 10`) // <-- newVariable is expression
+  console.log(`${newVariable} > 10`) // <-- newVariable is expression
   /**         _________________________
    *                      ^
    *                 expression
