@@ -8,7 +8,7 @@ console.log(myArray);
 
 // 
 
-const testArray = myArray.forEach(el => el ** 3);
+const testArray = myArray.forEach(el => el ** 3); // forEach doesn't return any value
 
 console.log(testArray);
 console.log(myArray);
