@@ -2,6 +2,8 @@
 
 const currentDate = new Date();
 
+console.log(currentDate);
+
 const currentDateInMs = currentDate.getTime();
 
 console.log(currentDateInMs);
